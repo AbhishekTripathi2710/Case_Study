@@ -1,0 +1,70 @@
+{
+  "profiles": [
+    {
+      "id": "1",
+      "name": "Rahul Sharma",
+      "photo": "../src/assets/rahulsharma.jpg",
+      "description": "Software Developer with 5 years of experience",
+      "address": {
+        "street": "123 MG Road",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "zipCode": "560001",
+        "country": "India",
+        "latitude": 12.9716,
+        "longitude": 77.5946
+      },
+      "email": "rahul.sharma@example.com",
+      "phone": "+91 98765 43210",
+      "interests": [
+        "coding",
+        "cricket",
+        "photography"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Priya Patel",
+      "photo": "../src/assets/priyapatel.jpg",
+      "description": "UX Designer passionate about user-centered design",
+      "address": {
+        "street": "456 Linking Road",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "zipCode": "400052",
+        "country": "India",
+        "latitude": 19.076,
+        "longitude": 72.8777
+      },
+      "email": "priya.patel@example.com",
+      "phone": "+91 87654 32109",
+      "interests": [
+        "design",
+        "travel",
+        "yoga"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Amit Kumar",
+      "photo": "../src/assets/amit.jpeg",
+      "description": "Marketing Manager with a knack for digital strategies",
+      "address": {
+        "street": "789 Connaught Place",
+        "city": "New Delhi",
+        "state": "Delhi",
+        "zipCode": "110001",
+        "country": "India",
+        "latitude": 28.6139,
+        "longitude": 77.209
+      },
+      "email": "amit.kumar@example.com",
+      "phone": "+91 76543 21098",
+      "interests": [
+        "marketing",
+        "cricket",
+        "cooking"
+      ]
+    }
+  ]
+}
