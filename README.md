@@ -52,18 +52,19 @@ The Profile Map Application is a full-stack web application that allows users to
 
 ### Frontend Setup
 1. Clone the repository:
-git clone https://github.com/your-username/profile-map-app.git cd profile-map-app
+git clone https://github.com/AbhishekTripathi2710/Case_Study.git
+cd userinfo
 
 
-2. Install dependencies:
+3. Install dependencies:
 npm install
 
 
-3. Create a `.env` file in the root directory and add your Google Maps API key:
+4. Create a `.env` file in the root directory and add your Google Maps API key:
 VITE_GOOGLE_MAPS_API_KEY=your_google_maps_api_key_here
 
 
-4. Start the development server:
+5. Start the development server:
 npm run dev
 
 
