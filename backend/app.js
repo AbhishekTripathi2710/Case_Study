@@ -9,7 +9,6 @@ const app = express();
 app.use(cors());
 app.use(bodyParser.json());
 
-// Routes
 app.use("/api/otp", otpRoutes);
 
 const PORT = process.env.PORT || 5000;

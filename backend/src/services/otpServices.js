@@ -1,10 +1,8 @@
-// In routes/auth.js or similar
 const express = require("express");
 const router = express.Router();
 const { sendOTP, verifyOTP } = require("../services/otpService");
-const ADMIN_EMAIL = process.env.ADMIN_EMAIL; // Admin email from environment variables
+const ADMIN_EMAIL = process.env.ADMIN_EMAIL; 
 
-// Send OTP
 router.post("/send-otp", async (req, res) => {
   const { email } = req.body;
 
@@ -20,7 +18,6 @@ router.post("/send-otp", async (req, res) => {
   }
 });
 
-// Verify OTP
 router.post("/verify-otp", async (req, res) => {
   const { email, otp } = req.body;
 
